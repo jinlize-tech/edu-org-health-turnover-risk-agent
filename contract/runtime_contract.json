@@ -1,0 +1,109 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-AG-028",
+  "product_name": "组织健康与离职风险诊断",
+  "product_type": "Agent",
+  "repository_name": "edu-org-health-turnover-risk-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-org-health-turnover-risk-agent",
+  "product_version": "1.0.0",
+  "batch": 4,
+  "business_category": "13 组织与人才效能中心",
+  "high_risk": false,
+  "deterministic": false,
+  "agent": true,
+  "core_outputs": [
+    "组织健康诊断",
+    "离职风险热区",
+    "改进计划"
+  ],
+  "optional_outputs": [
+    "证据与反证",
+    "访谈提纲",
+    "复测指标"
+  ],
+  "all_outputs": [
+    "组织健康诊断",
+    "离职风险热区",
+    "改进计划",
+    "证据与反证",
+    "访谈提纲",
+    "复测指标"
+  ],
+  "human_review_required": false,
+  "reviewer_role": "业务负责人",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "turnover_records",
+    "staffing_data",
+    "campus_job_labels",
+    "review_period"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "turnover_records": {
+      "type": "array"
+    },
+    "staffing_data": {
+      "type": "array"
+    },
+    "workload_data": {
+      "type": "array"
+    },
+    "performance_distribution": {
+      "type": "array"
+    },
+    "employee_survey": {
+      "type": "array"
+    },
+    "key_events": {
+      "type": "array"
+    },
+    "campus_job_labels": {
+      "type": "array"
+    },
+    "review_period": {
+      "type": "string"
+    },
+    "resume_mode": {
+      "type": "string",
+      "enum": [
+        "new",
+        "resume",
+        "target_change",
+        "stage_rollback"
+      ],
+      "default": "new"
+    },
+    "agent_state": {
+      "type": "object"
+    }
+  },
+  "expected_scenario_count": 14,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

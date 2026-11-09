@@ -1,0 +1,31 @@
+{
+  "number": 28,
+  "product_id": "JLZ-EDU-AG-028",
+  "candidate_id": "CAND-042",
+  "chinese_name": "组织健康与离职风险诊断",
+  "english_name": "Organizational Health and Turnover Risk Agent",
+  "repository_name": "edu-org-health-turnover-risk-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-org-health-turnover-risk-agent",
+  "product_type": "Agent",
+  "category": "13 组织与人才效能中心",
+  "batch": 4,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "组织健康诊断",
+    "离职风险热区",
+    "改进计划"
+  ],
+  "optional_outputs": [
+    "证据与反证",
+    "访谈提纲",
+    "复测指标"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 14,
+  "package_path": "dist/edu-org-health-turnover-risk-agent-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}
