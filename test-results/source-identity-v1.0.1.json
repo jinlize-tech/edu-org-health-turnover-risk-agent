@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-AG-028",
+  "repository_name": "edu-org-health-turnover-risk-agent",
+  "version": "1.0.1",
+  "tested_source_commit": "7f1e997f00d44d39b7c7fe36283459841fef8d10",
+  "tested_source_tree_sha": "ce685202ae0da345accbe106246927974bb722c4",
+  "package_path": "dist/edu-org-health-turnover-risk-agent-v1.0.1.zip",
+  "package_sha256": "2F8B0FEBC19B60210493E383B9EC502E0241C93AACE2CDA3ECAB0AC710182BCC",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 62,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": "Education AI Tools Maintainers"
+}
