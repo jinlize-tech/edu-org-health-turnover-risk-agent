@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-AG-028",
   "repository_name": "edu-org-health-turnover-risk-agent",
   "product_type": "Agent",
-  "version": "1.0.0",
-  "package_path": "dist/edu-org-health-turnover-risk-agent-v1.0.0.zip",
-  "sha256": "16C8AEBC2808A0DF319CA21A67C42C17A92842ACFF476B0F7ED40A3C75D8CB30",
-  "bytes": 47454,
+  "version": "1.0.1",
+  "package_path": "dist/edu-org-health-turnover-risk-agent-v1.0.1.zip",
+  "sha256": "2F8B0FEBC19B60210493E383B9EC502E0241C93AACE2CDA3ECAB0AC710182BCC",
+  "bytes": 48600,
   "entries": [
     "edu-org-health-turnover-risk-agent/README.md",
     "edu-org-health-turnover-risk-agent/PRODUCT_SPEC.md",
@@ -38,5 +38,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:00:37.245241+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-org-health-turnover-risk-agent-v1.0.0.zip",
+  "previous_package_sha256": "16C8AEBC2808A0DF319CA21A67C42C17A92842ACFF476B0F7ED40A3C75D8CB30",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }

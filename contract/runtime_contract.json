@@ -5,7 +5,7 @@
   "product_type": "Agent",
   "repository_name": "edu-org-health-turnover-risk-agent",
   "repository_url": "https://github.com/jinlize-tech/edu-org-health-turnover-risk-agent",
-  "product_version": "1.0.0",
+  "product_version": "1.0.1",
   "batch": 4,
   "business_category": "13 组织与人才效能中心",
   "high_risk": false,
